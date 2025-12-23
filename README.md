@@ -54,9 +54,10 @@ npx http-server . -p 8080
 ### 3. Abrir en el navegador
 Visita `http://localhost:8080` en tu navegador favorito.
 
-### 4. Abrir en el navegador con GithunPages
-Visita `https://enyalondev.github.io/PortfolioJairo/` en tu navegador favorito.
 ---
+
+## 🧑🏼‍💻 Abrir en el navegador con GithunPages
+Visita `https://enyalondev.github.io/PortafolioJairo/` en tu navegador favorito.
 
 ## 📂 Estructura del Proyecto
 
