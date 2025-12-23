@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio profesional de Jairo Alonso Ovallos Cañas - Ingeniero Civil e Ingeniero en Geociencias con experiencia en gestión de contratos y análisis de datos.">
+    <title>Jairo Ovallos | Ingeniero & Analista de Datos</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container container">
+            <a href="#" class="logo">JAIRO OVALLOS<span>.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">Sobre Mí</a></li>
+                <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experiencia</a></li>
+                <li><a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portafolio</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+                <li>
+                    <button id="lang-toggle" class="lang-btn">
+                        <span class="lang-icon">🇺🇸</span> <span class="lang-text">EN</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Jairo Alonso <br> Ovallos Cañas</h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Ingeniero Civil, Ingeniero en Geociencias y
+                        Analista de Datos. Comprometido
+                        con la excelencia operativa y la innovación técnica.</p>
+                    <div class="hero-btns">
+                        <a href="#experience" class="btn btn-primary" data-i18n="hero.btn_exp">Ver Experiencia</a>
+                        <a href="#portfolio" class="btn btn-outline" data-i18n="hero.btn_work">Explorar Trabajos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Skills Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="about.title">Aptitudes y Capacidades</h2>
+                <div class="grid grid-3">
+                    <div class="card glass">
+                        <div class="card-icon"><i class="fas fa-file-contract"></i></div>
+                        <h3 data-i18n="about.card1_title">Gestión de Contratos</h3>
+                        <p data-i18n="about.card1_text">Especialista en Administración de Contratos, Desarrollo de KPI y
+                            SLA, y Resolución de
+                            conflictos en entornos industriales complejos.</p>
+                    </div>
+                    <div class="card glass">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3 data-i18n="about.card2_title">Análisis de Datos</h3>
+                        <p data-i18n="about.card2_text">Programación para el Análisis de Datos con Python y
+                            Visualización avanzada con Tableau,
+                            Looker y PowerBI.</p>
+                    </div>
+                    <div class="card glass">
+                        <div class="card-icon"><i class="fas fa-shield-virus"></i></div>
+                        <h3 data-i18n="about.card3_title">Sistemas de Gestión</h3>
+                        <p data-i18n="about.card3_text">Implementación de Sistemas ISO 9001 (Calidad), 39001 (Seguridad
+                            Vial) y 22320 (Emergencias)
+                            con enfoque en mejora continua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                    <div>
+                        <h2 class="section-title" style="text-align: left; margin-bottom: var(--spacing-lg);"
+                            data-i18n="experience.title_work">
+                            Experiencia Laboral</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025 - Actualidad</div>
+                                <h3>Nera Chile Spa</h3>
+                                <p><strong data-i18n="experience.job1_role">Analista de Contratos</strong>. <span
+                                        data-i18n="experience.job1_desc">Gestión administrativa y operativa con
+                                        enfoque estratégica.</span></p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Jun 2024 - Mar 2025</div>
+                                <h3>Molinstec</h3>
+                                <p><strong data-i18n="experience.job2_role">Ingeniero de Ventas</strong>. <span
+                                        data-i18n="experience.job2_desc">Desarrollo de soluciones de pesaje e ingeniería
+                                        industrial.</span></p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">Dic 2020 - Dic 2023</div>
+                                <h3>Explor-K</h3>
+                                <p><strong data-i18n="experience.job3_role">Administrador de Contrato SQM</strong>.
+                                    <span data-i18n="experience.job3_desc">Liderazgo de equipos y gestión de
+                                        operaciones críticas.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="section-title" style="text-align: left; margin-bottom: var(--spacing-lg);"
+                            data-i18n="experience.title_edu">Datos
+                            Académicos</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025</div>
+                                <h3 data-i18n="experience.edu1_title">Diplomado Adm. de Contratos</h3>
+                                <p data-i18n="experience.edu1_desc">Especialización en minería y gestión de contratos
+                                    industriales.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2025</div>
+                                <h3 data-i18n="experience.edu2_title">Data Science & Analytics</h3>
+                                <p data-i18n="experience.edu2_desc">Certificación avanzada en análisis dinámico y
+                                    ciencia de datos.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-date">2014 & 2011</div>
+                                <h3 data-i18n="experience.edu3_title">Ingeniería doble titulación</h3>
+                                <p data-i18n="experience.edu3_desc">Ingeniero en Geociencias e Ingeniero Civil
+                                    Construcción.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="portfolio.title">Portafolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item glass">
+                        <img src="assets/img/1.jpg" alt="Minera Los Pelambres" class="portfolio-img">
+                        <div class="portfolio-info">
+                            <h3 data-i18n="portfolio.item1_title">Minera Los Pelambres</h3>
+                            <p data-i18n="portfolio.item1_desc">Gestión operativa y logística en una de las mineras más
+                                importantes del mundo.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass">
+                        <img src="assets/img/2.jpg" alt="Ayuda Humanitaria Nepal" class="portfolio-img">
+                        <div class="portfolio-info">
+                            <h3 data-i18n="portfolio.item2_title">Misión Humanitaria Nepal</h3>
+                            <p data-i18n="portfolio.item2_desc">Apoyo técnico y logístico tras el terremoto de 2015 en
+                                una misión internacional.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass">
+                        <img src="assets/img/3.jpg" alt="Ayuda Humanitaria Ecuador" class="portfolio-img">
+                        <div class="portfolio-info">
+                            <h3 data-i18n="portfolio.item3_title">Misión Humanitaria Ecuador</h3>
+                            <p data-i18n="portfolio.item3_desc">Rescate y gestión de emergencias tras el sismo de 2016.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass">
+                        <img src="assets/img/4.jpg" alt="Asiameric" class="portfolio-img">
+                        <div class="portfolio-info">
+                            <h3 data-i18n="portfolio.item4_title">Analista de Operaciones</h3>
+                            <p data-i18n="portfolio.item4_desc">Servicios logísticos de importación y exportación en
+                                Asiameric Chile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="contact.title">Contáctame</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4 data-i18n="contact.phone">Teléfono</h4>
+                                <p>+56 9 4125 7491</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4 data-i18n="contact.email">Email</h4>
+                                <p>geologol@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4 data-i18n="contact.location">Ubicación</h4>
+                                <p data-i18n="contact.location_val">Santiago, Chile</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form glass">
+                        <form id="portfolioContact">
+                            <div class="form-group">
+                                <label class="form-label" data-i18n="contact.label_name">Nombre Completo</label>
+                                <input type="text" class="form-input" placeholder="Tu nombre..."
+                                    data-i18n-ph="contact.ph_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" data-i18n="contact.label_email">Email</label>
+                                <input type="email" class="form-input" placeholder="ejemplo@correo.com"
+                                    data-i18n-ph="contact.ph_email" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" data-i18n="contact.label_msg">Mensaje</label>
+                                <textarea class="form-input" rows="4" placeholder="¿En qué puedo ayudarte?"
+                                    data-i18n-ph="contact.ph_msg" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;"
+                                data-i18n="contact.btn_send">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jairo Alonso Ovallos Cañas. <span data-i18n="footer.rights">Todos los derechos
+                    reservados.</span></p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <!-- JS -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
