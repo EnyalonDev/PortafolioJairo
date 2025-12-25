@@ -34,7 +34,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos sencillos pasos:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/EnyalonDev/PortafolioJairoO.git
+git clone https://github.com/EnyalonDev/PortafolioJairo.git
 cd PortfolioJairo
 ```
 
@@ -57,7 +57,7 @@ Visita `http://localhost:8080` en tu navegador favorito.
 ---
 
 ## 🧑🏼‍💻 Abrir en el navegador con GithunPages
-Visita `https://enyalondev.github.io/PortafolioJairo/` en tu navegador favorito.
+Visita https://enyalondev.github.io/PortafolioJairo/ en tu navegador favorito.
 
 ## 📂 Estructura del Proyecto
 
